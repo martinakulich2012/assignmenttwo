@@ -22,3 +22,7 @@
 #else:
 #    print("Your total will be $" + str(bill * 1.25))
 
+bill = float(input("How much was the bill? (No $ sign)"))
+tip = int(input("How much did you tip? (Stil no $ sign)"))
+total = bill + tip
+print("Your total is $" + str(total))
