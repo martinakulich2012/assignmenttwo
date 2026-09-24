@@ -31,14 +31,11 @@ for i in range(1, number + 1):
     if number % i == 0:
         print(i)
 """
-listone = list1()
-listtwo:  list2()
-number1 = int(input("Type your first number: "))
-number2 = int(input("Type your second number: "))
-for i in range(1, number1 + 1):
-    if number1 % i == 0:
-        listone.append(i)
-print(listone)
-for i in range(1, number2 + 1):
-    if number2 % i == 0:
-        listtwo.append(i)
+numberone = int(input("Type your first number: "))
+numbertwo = int(input("Type your second number: "))
+def factors(n):
+    for i in range(1, n + 1):
+        if numberone % i == 0:
+            factors.append(i)
+listone = factors(numberone)
+listtwo = factors(numbertwo)
