@@ -30,12 +30,14 @@ number = int(input("Input any whole non-negative number: "))
 for i in range(1, number + 1):
     if number % i == 0:
         print(i)
-"""
+
 numberone = int(input("Type your first number: "))
 numbertwo = int(input("Type your second number: "))
-def factors(n):
+def factors(n, f):
+    factorlist = []
     for i in range(1, n + 1):
-        if numberone % i == 0:
-            factors.append(i)
-listone = factors(numberone)
-listtwo = factors(numbertwo)
+        if n % i == 0 and f % i == 0:
+            factorlist.append(i)
+    print(factorlist[-1])
+factors(numberone, numbertwo)
+"""
